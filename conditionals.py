@@ -6,8 +6,8 @@ magic_num = random.randint(1, 10)
 
 def not_num():
     print("wrong number, please try again!")
-    not_num = int(input("pick a number between 1 and 10. -> "))
-    main(not_num)
+    num = int(input("pick a number between 1 and 10. -> "))
+    main(num)
 
 def out_of_range():
     print("out of range, please try again!")
@@ -30,4 +30,3 @@ def main(num):
 main(num)
 
 
-#python3 conditionals.py 
