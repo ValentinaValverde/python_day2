@@ -1,26 +1,25 @@
-
 #part 1 - completed
-# nums = [1, 2, 3, 4, 5, 99, 2600, 300]
-# reversed_nums = list(reversed(nums))
+nums = [1, 2, 3, 4, 5, 99, 2600, 300]
+reversed_nums = list(reversed(nums))
 
-# print("nums:", nums)
-# print("reversed_nums", reversed_nums)
+print("nums:", nums)
+print("reversed_nums", reversed_nums)
 
 
 
-#part 2 - incomplete
-# name = input("please type your name -> ")
-# empty = []
-# counter = 0
+#part 2 - completed
+name = input("please type your name -> ")
+empty = []
+counter = 0
 
-# while counter < len(name):
-#     # print(name[counter])
-#     empty.append(name[counter])
-#     counter = counter + 1
+while counter < len(name):
+    # print(name[counter])
+    empty.append(name[counter])
+    counter = counter + 1
 
-# reversed_list = list(reversed(empty))
+reversed_list = list(reversed(empty))
 
-# print("reversed name:", "".join(reversed_list))
+print("reversed name:", "".join(reversed_list))
 
 
 
